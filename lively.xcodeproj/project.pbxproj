@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99064699293322A000D49771 /* plantsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99064698293322A000D49771 /* plantsApp.swift */; };
+		9906469B293322A000D49771 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9906469A293322A000D49771 /* ContentView.swift */; };
+		9906469D293322A400D49771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9906469C293322A400D49771 /* Assets.xcassets */; };
+		990646A0293322A400D49771 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9906469F293322A400D49771 /* Preview Assets.xcassets */; };
+		9913CAAD29EA70C900240AA3 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9913CAAC29EA70C900240AA3 /* Login.swift */; };
+		9913CAB329EA7DBA00240AA3 /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9913CAB229EA7DBA00240AA3 /* Pair.swift */; };
+		991969FC29A089DB000DDDFF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991969FB29A089DB000DDDFF /* Launch Screen.storyboard */; };
+		991969FE29A08C46000DDDFF /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991969FD29A08C46000DDDFF /* Menu.swift */; };
+		99196A0029A0B55F000DDDFF /* water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991969FF29A0B55F000DDDFF /* water.swift */; };
+		99196A0229A0B567000DDDFF /* fertilize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99196A0129A0B567000DDDFF /* fertilize.swift */; };
+		99196A0429A0B57B000DDDFF /* rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99196A0329A0B57B000DDDFF /* rotate.swift */; };
+		99196A0629A0CE7C000DDDFF /* YourPlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99196A0529A0CE7C000DDDFF /* YourPlant.swift */; };
+		99196A0C29A0D5DE000DDDFF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99196A0B29A0D5DE000DDDFF /* Profile.swift */; };
+		99196A0E29A0E4A2000DDDFF /* DrLively.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99196A0D29A0E4A2000DDDFF /* DrLively.swift */; };
+		99E5F5872962300700694234 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5F5862962300700694234 /* Dashboard.swift */; };
+		99E5F5892962614800694234 /* Chrysanthemum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5F5882962614800694234 /* Chrysanthemum.swift */; };
+		99E5F58B2962646300694234 /* MonsteraDeliciosa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5F58A2962646300694234 /* MonsteraDeliciosa.swift */; };
+		99FD933F296B8C600034E14C /* Bamboo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD933E296B8C600034E14C /* Bamboo.swift */; };
+		99FD9341296B90770034E14C /* AloeVera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD9340296B90770034E14C /* AloeVera.swift */; };
+		99FD9345296B99390034E14C /* Anthurium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD9344296B99390034E14C /* Anthurium.swift */; };
+		99FD9347296B9A560034E14C /* Succulent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD9346296B9A560034E14C /* Succulent.swift */; };
+		99FD9349296B9CD50034E14C /* DracaenaTrifasciata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD9348296B9CD50034E14C /* DracaenaTrifasciata.swift */; };
+		99FD934B296B9F490034E14C /* FicusLyrata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD934A296B9F490034E14C /* FicusLyrata.swift */; };
+		99FD934D296BADA40034E14C /* Dieffenbachia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD934C296BADA40034E14C /* Dieffenbachia.swift */; };
+		99FD934F296BAFED0034E14C /* Azalea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD934E296BAFED0034E14C /* Azalea.swift */; };
+		99FD9351296BB32B0034E14C /* Clematis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD9350296BB32B0034E14C /* Clematis.swift */; };
+		99FD9353296BB4BE0034E14C /* Dahlia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD9352296BB4BE0034E14C /* Dahlia.swift */; };
+		99FD9355296BBBE20034E14C /* Marigold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD9354296BBBE20034E14C /* Marigold.swift */; };
+		99FD9357296BBF5B0034E14C /* PhalaenopsisOrchid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD9356296BBF5B0034E14C /* PhalaenopsisOrchid.swift */; };
+		99FD9359296BC1EA0034E14C /* DracaenaMarginata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD9358296BC1EA0034E14C /* DracaenaMarginata.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99064695293322A000D49771 /* lively.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lively.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99064698293322A000D49771 /* plantsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantsApp.swift; sourceTree = "<group>"; };
+		9906469A293322A000D49771 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9906469C293322A400D49771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9906469F293322A400D49771 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9913CAAC29EA70C900240AA3 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		9913CAB229EA7DBA00240AA3 /* Pair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pair.swift; sourceTree = "<group>"; };
+		991969FB29A089DB000DDDFF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		991969FD29A08C46000DDDFF /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		991969FF29A0B55F000DDDFF /* water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = water.swift; sourceTree = "<group>"; };
+		99196A0129A0B567000DDDFF /* fertilize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fertilize.swift; sourceTree = "<group>"; };
+		99196A0329A0B57B000DDDFF /* rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotate.swift; sourceTree = "<group>"; };
+		99196A0529A0CE7C000DDDFF /* YourPlant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourPlant.swift; sourceTree = "<group>"; };
+		99196A0B29A0D5DE000DDDFF /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		99196A0D29A0E4A2000DDDFF /* DrLively.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrLively.swift; sourceTree = "<group>"; };
+		99E5F5862962300700694234 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		99E5F5882962614800694234 /* Chrysanthemum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chrysanthemum.swift; sourceTree = "<group>"; };
+		99E5F58A2962646300694234 /* MonsteraDeliciosa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsteraDeliciosa.swift; sourceTree = "<group>"; };
+		99FD933E296B8C600034E14C /* Bamboo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bamboo.swift; sourceTree = "<group>"; };
+		99FD9340296B90770034E14C /* AloeVera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloeVera.swift; sourceTree = "<group>"; };
+		99FD9344296B99390034E14C /* Anthurium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anthurium.swift; sourceTree = "<group>"; };
+		99FD9346296B9A560034E14C /* Succulent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Succulent.swift; sourceTree = "<group>"; };
+		99FD9348296B9CD50034E14C /* DracaenaTrifasciata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DracaenaTrifasciata.swift; sourceTree = "<group>"; };
+		99FD934A296B9F490034E14C /* FicusLyrata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FicusLyrata.swift; sourceTree = "<group>"; };
+		99FD934C296BADA40034E14C /* Dieffenbachia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dieffenbachia.swift; sourceTree = "<group>"; };
+		99FD934E296BAFED0034E14C /* Azalea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azalea.swift; sourceTree = "<group>"; };
+		99FD9350296BB32B0034E14C /* Clematis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clematis.swift; sourceTree = "<group>"; };
+		99FD9352296BB4BE0034E14C /* Dahlia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dahlia.swift; sourceTree = "<group>"; };
+		99FD9354296BBBE20034E14C /* Marigold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marigold.swift; sourceTree = "<group>"; };
+		99FD9356296BBF5B0034E14C /* PhalaenopsisOrchid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhalaenopsisOrchid.swift; sourceTree = "<group>"; };
+		99FD9358296BC1EA0034E14C /* DracaenaMarginata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DracaenaMarginata.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99064692293322A000D49771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9906468C293322A000D49771 = {
+			isa = PBXGroup;
+			children = (
+				99064697293322A000D49771 /* plants */,
+				99064696293322A000D49771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99064696293322A000D49771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99064695293322A000D49771 /* lively.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99064697293322A000D49771 /* plants */ = {
+			isa = PBXGroup;
+			children = (
+				99064698293322A000D49771 /* plantsApp.swift */,
+				9913CAB229EA7DBA00240AA3 /* Pair.swift */,
+				991969FD29A08C46000DDDFF /* Menu.swift */,
+				9913CAAC29EA70C900240AA3 /* Login.swift */,
+				99196A0B29A0D5DE000DDDFF /* Profile.swift */,
+				99E5F5862962300700694234 /* Dashboard.swift */,
+				99196A0529A0CE7C000DDDFF /* YourPlant.swift */,
+				99196A0D29A0E4A2000DDDFF /* DrLively.swift */,
+				991969FF29A0B55F000DDDFF /* water.swift */,
+				99196A0129A0B567000DDDFF /* fertilize.swift */,
+				99196A0329A0B57B000DDDFF /* rotate.swift */,
+				991969FB29A089DB000DDDFF /* Launch Screen.storyboard */,
+				9906469A293322A000D49771 /* ContentView.swift */,
+				99FD934C296BADA40034E14C /* Dieffenbachia.swift */,
+				99FD934E296BAFED0034E14C /* Azalea.swift */,
+				99FD9348296B9CD50034E14C /* DracaenaTrifasciata.swift */,
+				99FD934A296B9F490034E14C /* FicusLyrata.swift */,
+				99FD9346296B9A560034E14C /* Succulent.swift */,
+				99E5F58A2962646300694234 /* MonsteraDeliciosa.swift */,
+				99FD9354296BBBE20034E14C /* Marigold.swift */,
+				99FD9344296B99390034E14C /* Anthurium.swift */,
+				99FD933E296B8C600034E14C /* Bamboo.swift */,
+				99E5F5882962614800694234 /* Chrysanthemum.swift */,
+				99FD9340296B90770034E14C /* AloeVera.swift */,
+				99FD9358296BC1EA0034E14C /* DracaenaMarginata.swift */,
+				99FD9356296BBF5B0034E14C /* PhalaenopsisOrchid.swift */,
+				99FD9350296BB32B0034E14C /* Clematis.swift */,
+				99FD9352296BB4BE0034E14C /* Dahlia.swift */,
+				9906469C293322A400D49771 /* Assets.xcassets */,
+				9906469E293322A400D49771 /* Preview Content */,
+			);
+			path = plants;
+			sourceTree = "<group>";
+		};
+		9906469E293322A400D49771 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9906469F293322A400D49771 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99064694293322A000D49771 /* lively */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990646A3293322A400D49771 /* Build configuration list for PBXNativeTarget "lively" */;
+			buildPhases = (
+				99064691293322A000D49771 /* Sources */,
+				99064692293322A000D49771 /* Frameworks */,
+				99064693293322A000D49771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lively;
+			productName = plants;
+			productReference = 99064695293322A000D49771 /* lively.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9906468D293322A000D49771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					99064694293322A000D49771 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 99064690293322A000D49771 /* Build configuration list for PBXProject "lively" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9906468C293322A000D49771;
+			productRefGroup = 99064696293322A000D49771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99064694293322A000D49771 /* lively */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99064693293322A000D49771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991969FC29A089DB000DDDFF /* Launch Screen.storyboard in Resources */,
+				990646A0293322A400D49771 /* Preview Assets.xcassets in Resources */,
+				9906469D293322A400D49771 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99064691293322A000D49771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FD9347296B9A560034E14C /* Succulent.swift in Sources */,
+				99FD9359296BC1EA0034E14C /* DracaenaMarginata.swift in Sources */,
+				99FD9353296BB4BE0034E14C /* Dahlia.swift in Sources */,
+				99196A0C29A0D5DE000DDDFF /* Profile.swift in Sources */,
+				99FD9351296BB32B0034E14C /* Clematis.swift in Sources */,
+				99FD9341296B90770034E14C /* AloeVera.swift in Sources */,
+				99FD9349296B9CD50034E14C /* DracaenaTrifasciata.swift in Sources */,
+				9906469B293322A000D49771 /* ContentView.swift in Sources */,
+				99E5F5872962300700694234 /* Dashboard.swift in Sources */,
+				99FD9345296B99390034E14C /* Anthurium.swift in Sources */,
+				99FD9355296BBBE20034E14C /* Marigold.swift in Sources */,
+				99FD9357296BBF5B0034E14C /* PhalaenopsisOrchid.swift in Sources */,
+				991969FE29A08C46000DDDFF /* Menu.swift in Sources */,
+				99196A0429A0B57B000DDDFF /* rotate.swift in Sources */,
+				99E5F5892962614800694234 /* Chrysanthemum.swift in Sources */,
+				9913CAAD29EA70C900240AA3 /* Login.swift in Sources */,
+				99FD934F296BAFED0034E14C /* Azalea.swift in Sources */,
+				99196A0E29A0E4A2000DDDFF /* DrLively.swift in Sources */,
+				99E5F58B2962646300694234 /* MonsteraDeliciosa.swift in Sources */,
+				99FD934B296B9F490034E14C /* FicusLyrata.swift in Sources */,
+				99196A0229A0B567000DDDFF /* fertilize.swift in Sources */,
+				99064699293322A000D49771 /* plantsApp.swift in Sources */,
+				99196A0029A0B55F000DDDFF /* water.swift in Sources */,
+				9913CAB329EA7DBA00240AA3 /* Pair.swift in Sources */,
+				99FD933F296B8C600034E14C /* Bamboo.swift in Sources */,
+				99FD934D296BADA40034E14C /* Dieffenbachia.swift in Sources */,
+				99196A0629A0CE7C000DDDFF /* YourPlant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		990646A1293322A400D49771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		990646A2293322A400D49771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		990646A4293322A400D49771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"plants/Preview Content\"";
+				DEVELOPMENT_TEAM = 9W7UGKQPG8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "samya-chauhan.lively";
+				PRODUCT_NAME = lively;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		990646A5293322A400D49771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"plants/Preview Content\"";
+				DEVELOPMENT_TEAM = 9W7UGKQPG8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "samya-chauhan.lively";
+				PRODUCT_NAME = lively;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99064690293322A000D49771 /* Build configuration list for PBXProject "lively" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990646A1293322A400D49771 /* Debug */,
+				990646A2293322A400D49771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990646A3293322A400D49771 /* Build configuration list for PBXNativeTarget "lively" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990646A4293322A400D49771 /* Debug */,
+				990646A5293322A400D49771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9906468D293322A000D49771 /* Project object */;
+}
